@@ -15,7 +15,7 @@ main {
 
 #parent {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .contents {
@@ -43,6 +43,10 @@ h2::before {
 
 p {
     margin: 0px;
+    font-size: 20px;
+}
+
+a {
     font-size: 20px;
 }
 
